@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<div class="topnav" id="myTopnav">
+    <a href="/">Home</a>
+    <a href="/create" class="active">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<div>
+    <form action="/add-user" class="form-home" method="POST">
+        <fieldset>
+            <legend>Add new uses</legend>
+            <div class="input-group">
+                <label for="fname">Email:</label>
+                <input type="text" name="email">
+            </div>
+            <div class="input-group">
+                <label for="fname">Name:</label>
+                <input type="text" name="nameUse">
+            </div>
+
+            <div class="input-group">
+                <label for="fname">City:</label>
+                <input type="text" name="city">
+            </div>
+
+
+            <input type="submit" value="Submit" style="margin: 10px; cursor: pointer;">
+        </fieldset>
+    </form>
+</div>
+
+<body>
+
+</body>
+
+</html>
